@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Website</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #FCE4EC; /* Light pink background */
+    }
+    header, footer {
+      background-color: #FFCDD2; /* Light red */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      height: 80px; /* Set the height of header and footer */
+      position: relative; /* Positioning context for absolute positioning */
+    }
+    h1, h2 {
+      color: #D81B60; /* Dark pink */
+    }
+    main {
+      padding: 20px;
+      text-align: center; /* Center content */
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .heart {
+        width: 50px; /* Adjust the width of the heart */
+        height: auto; /* Maintain aspect ratio */
+        position: absolute;
+        top: 50%; /* Align vertically */
+        transform: translateY(-50%); /* Adjust vertical alignment */
+    }
+    .left-heart {
+      left: 20px; /* Adjust distance from the left edge */
+    }
+    .right-heart {
+      right: 20px; /* Adjust distance from the right edge */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="heart2.png" alt="Heart" class="heart left-heart">
+    <h1>Happy Valentine's Day My Love</h1>
+
+    <img src="heart2.png" alt="Heart" class="heart right-heart">
+  </header>
+
+  <main>
+    <h2>i love you</h2>
+    
+    <!-- Video container -->
+    <div class="video-container">
+      <!-- Video element -->
+      <video width="640" height="360" controls>
+        <source src="valentine.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </main>
+
+  <footer>
+    <img src="heart2.png" alt="Heart" class="heart left-heart">
+    <img src="heart2.png" alt="Heart" class="heart right-heart" >
+  </footer>
+
+</body>
+</html>
